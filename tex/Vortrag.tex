@@ -1,0 +1,100 @@
+ \documentclass[envcountsect]{beamer}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+%\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usetheme{Warsaw}
+\DeclareGraphicsExtensions{.pdf,.png,.gif,.jpg}
+\usepackage{xparse}
+\usetikzlibrary{matrix,backgrounds}
+\pgfdeclarelayer{myback}
+\pgfsetlayers{myback,background,main}
+\usepackage{tikz}
+\usetikzlibrary{calc,shapes.multipart,chains,arrows}
+\usepackage{algpseudocode}
+\usepackage{algorithmicx} 
+\usepackage{algorithm} 
+\usepackage{setspace}
+\usepackage{float}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{todonotes}
+\usepackage{colortbl} 
+\usepackage{amsfonts}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{xcolor} 
+\usepackage{xfrac}
+\usepackage{rotating}
+\usepackage{tcolorbox}
+\usepackage{lipsum}
+\usepackage{pgf}
+\usepackage{pgffor}
+\usepgfmodule{shapes}
+\usepgfmodule{plot}
+\usetikzlibrary{decorations}
+\usepackage{hyperref}
+%\usetikzlibrary{snakes}
+\usepackage{todonotes}
+
+\linespread{1.04} % Zeilenabstand passend zur Schriftart erhöhen
+%\onehalfspacing
+
+\newcommand*{\theorembreak}{\usebeamertemplate{theorem end}\framebreak\usebeamertemplate{theorem begin}}
+
+\setbeamertemplate{theorems}[numbered]
+\setbeamertemplate{caption}[numbered]
+\theoremstyle{definition}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{korollar}[theorem]{Korollar}
+\newtheorem{satz}[theorem]{Satz}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{theorem0}[theorem]{Theorem}
+\newtheorem{lemma0}[theorem]{Lemma}
+
+\useinnertheme{circles}
+\useoutertheme{smoothbars}
+
+\newcommand{\bo}{\boldsymbol}
+
+%\setbeamercovered{transparent}
+\beamertemplatenavigationsymbolsempty
+\setbeamertemplate{footline}[frame number]
+\thispagestyle{empty}
+\title{Advanced Testing Techniques in Modern Programming: Fuzzing}
+
+\author{
+	Stoecklein Matthias
+}
+%\institute[{University of Bayreuth}]{
+%\inst{}Master-Kolloquium }
+
+%\institute[]{University of Bayreuth}
+%\date{January 30, 2017}
+\begin{document}
+	
+\lstset{language=C++,
+                basicstyle=\ttfamily,
+                keywordstyle=\color{blue}\ttfamily,
+                stringstyle=\color{red}\ttfamily,
+                commentstyle=\color{gray}\ttfamily,
+                morecomment=[l][\color{magenta}]{\#}
+}
+
+
+
+\frame{
+	\frametitle{What is this talk  (not) about}
+	\begin{itemize}
+		\item dfg
+	\end{itemize}
+}
+
+
+
+
+\end{document}
